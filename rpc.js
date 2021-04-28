@@ -8,9 +8,9 @@ rpc.on("ready", () => {
         details: "discord.gg/devs",
         state: "Join discord.gg/devs",
         startTimestamp: new Date(),
-        largeImageKey: "large",
+        largeImageKey: "halaw",
         largeImageText: "discord.gg/devs",
-        smallImageKey: "small",
+        smallImageKey: "dog",
         smallImageText: "discord.gg/devs",
         buttons : [{label : "Subscribe" , url : "your channel"},{label : "Discord" , url : "https://discord.gg/devs"}]
     })
@@ -19,5 +19,5 @@ rpc.on("ready", () => {
 })
 
 rpc.login({
-    clientId: 'your client id'
+    clientId: '836097436208070656'
 })
